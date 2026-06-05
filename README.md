@@ -121,3 +121,14 @@ MIT
 - Package: https://github.com/zozo123/langchain-islo
 - Support PR / Issue in deepagents (LangChain ecosystem): https://github.com/langchain-ai/deepagents/issues/3776 and https://github.com/langchain-ai/deepagents/pull/3775
 
+
+## Submitting the supporting issue (required process)
+
+To get the PR reviewed, an issue must first be opened **manually via the GitHub web UI** using a template (CLI-created ones get auto-closed).
+
+See `HOW_TO_SUBMIT_ISSUE.md` for exact steps and copy-paste text.
+
+Files prepared:
+- `HOW_TO_SUBMIT_ISSUE.md` — full instructions
+- `READY_ISSUE_BODY.md` — the body text to paste into the form
+
