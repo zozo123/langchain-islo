@@ -115,3 +115,9 @@ See the E2B sandbox backend issue in langchain-ai/deepagents for the pattern.
 ## License
 
 MIT
+
+## Integration Status
+
+- Package: https://github.com/zozo123/langchain-islo
+- Support PR / Issue in deepagents (LangChain ecosystem): https://github.com/langchain-ai/deepagents/issues/3776 and https://github.com/langchain-ai/deepagents/pull/3775
+
