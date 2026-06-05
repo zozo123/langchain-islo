@@ -51,7 +51,7 @@ uvx deepagents-cli --sandbox islo ...
 
 ## Repo & Publishing
 
-- Recommended home: https://github.com/islo-labs/langchain-islo (or langchain-ai if they prefer to adopt)
+- Recommended home: https://github.com/zozo123/langchain-islo (personal fork; or move to islo-labs/org if desired)
 - Follow the exact publish steps in the contrib guide.
 - Only docs PR needed back to langchain-ai/docs after PyPI release (under integrations/sandboxes or deepagents/sandboxes).
 

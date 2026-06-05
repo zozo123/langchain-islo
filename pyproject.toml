@@ -31,8 +31,8 @@ dependencies = [
 packages = ["langchain_islo"]
 
 [project.urls]
-Homepage = "https://github.com/islo-labs/langchain-islo"
-Repository = "https://github.com/islo-labs/langchain-islo"
+Homepage = "https://github.com/zozo123/langchain-islo"
+Repository = "https://github.com/zozo123/langchain-islo"
 Documentation = "https://docs.langchain.com/oss/python/integrations/sandboxes/islo"
 
 [dependency-groups]
