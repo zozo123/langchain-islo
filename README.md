@@ -1,12 +1,10 @@
-# langchain-islo
+# langchain-islo (first prototype)
 
-[![PyPI - Version](https://img.shields.io/pypi/v/langchain-islo?label=%20)](https://pypi.org/project/langchain-islo/#history) [![PyPI - License](https://img.shields.io/pypi/l/langchain-islo)](https://opensource.org/licenses/MIT) [![PyPI - Downloads](https://img.shields.io/pepy/dt/langchain-islo)](https://pypistats.org/packages/langchain-islo)
+> **Superseded.** This was the first prototype (June 2026) of an Islo sandbox backend for LangChain Deep Agents. The published package is developed at [islo-labs/langchain-islo](https://github.com/islo-labs/langchain-islo) (`pip install langchain-islo`). This repository is archived for reference.
 
-Islo sandbox integration for Deep Agents.
+Islo ([islo.dev](https://islo.dev), the author's employer) provides cloud sandboxes; this backend runs Deep Agents tool calls inside one. By [Yossi Eliaz](https://yossieliaz.netlify.app/).
 
-Looking for the JS/TS version? Check out the Islo SDK or LangChain.js partners when available.
-
-## Quick Install
+## Quick install
 
 ```bash
 pip install langchain-islo
@@ -31,22 +29,6 @@ print(result.output)
 # Clean up when done
 client.sandboxes.delete_sandbox(sandbox_name=sandbox.name)
 ```
-
-## 🤔 What is this?
-
-Islo sandbox integration for Deep Agents. Islo provides fast, persistent, agent-optimized cloud sandboxes purpose-built for AI coding agents.
-
-See https://islo.dev and the [Islo docs](https://docs.islo.dev) for signup, authentication (ISLO_API_KEY), and platform details.
-
-## 📕 Releases & Versioning
-
-See our [Releases](https://docs.langchain.com/oss/python/release-policy) and [Versioning](https://docs.langchain.com/oss/python/versioning) policies.
-
-## 💁 Contributing
-
-As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
-
-For detailed information on how to contribute, see the [Contributing Guide](https://docs.langchain.com/oss/python/contributing/overview).
 
 ## Usage with Deep Agents
 
@@ -101,34 +83,10 @@ files = backend.download_files(["/src/main.py"])
 print(files[0].content)
 ```
 
-## CLI support (deepagents-code / dcode)
-
-Once published and the provider is wired in deepagents-code (similar to the E2B / langchain-e2b flow), you will be able to do:
-
-```bash
-uvx deepagents-cli --sandbox islo ...
-# or inside the TUI: /install islo
-```
-
-See the E2B sandbox backend issue in langchain-ai/deepagents for the pattern.
-
 ## License
 
 MIT
 
-## Integration Status
+## Upstream proposal
 
-- Package: https://github.com/zozo123/langchain-islo
-- Support PR / Issue in deepagents (LangChain ecosystem): https://github.com/langchain-ai/deepagents/issues/3776 and https://github.com/langchain-ai/deepagents/pull/3775
-
-
-## Submitting the supporting issue (required process)
-
-To get the PR reviewed, an issue must first be opened **manually via the GitHub web UI** using a template (CLI-created ones get auto-closed).
-
-See `HOW_TO_SUBMIT_ISSUE.md` for exact steps and copy-paste text.
-
-Files prepared:
-- `HOW_TO_SUBMIT_ISSUE.md` — full instructions
-- `READY_ISSUE_BODY.md` — the body text to paste into the form
-
+An upstream proposal to add this backend to Deep Agents ([langchain-ai/deepagents#3775](https://github.com/langchain-ai/deepagents/pull/3775), [#3776](https://github.com/langchain-ai/deepagents/issues/3776)) was closed without merge.
